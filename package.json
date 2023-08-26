@@ -1,0 +1,25 @@
+{
+  "name": "passtix",
+  "version": "1.0.3",
+  "description": "A simple password generator",
+  "main": "main.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spindolamateus/passtix.git"
+  },
+  "keywords": [
+    "password"
+  ],
+  "author": "Mateus Spindola",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spindolamateus/passtix/issues"
+  },
+  "homepage": "https://github.com/spindolamateus/passtix#readme"
+}
