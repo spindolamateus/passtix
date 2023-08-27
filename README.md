@@ -27,7 +27,7 @@ var password = passtix.generate({
 console.log(password);
 ```
 
-#### `entropy(password)`
+#### `getEntropy(password)`
 
 Calculates the amount of entropy of a password based on the following formula:
 `E = L × log(R) / log(2)`
@@ -37,7 +37,7 @@ Calculates the amount of entropy of a password based on the following formula:
 ```javascript
 const passtix = require('passtix');
 
-var entropyLevel = passtix.entropy("wE(20h>oGmwhN,m")
+var entropyLevel = passtix.getEntropy("wE(20h>oGmwhN,m")
 
 // 99
 console.log(entropyLevel)
