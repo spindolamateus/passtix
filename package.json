@@ -4,6 +4,10 @@
   "description": "A simple password generator",
   "main": "lib/index.js",
   "type": "module",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix ."
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/spindolamateus/passtix.git"
@@ -16,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/spindolamateus/passtix/issues"
   },
-  "homepage": "https://github.com/spindolamateus/passtix#readme"
+  "homepage": "https://github.com/spindolamateus/passtix#readme",
+  "dependencies": {
+    "eslint": "^8.48.0",
+    "eslint-config-standard": "^17.1.0"
+  }
 }
